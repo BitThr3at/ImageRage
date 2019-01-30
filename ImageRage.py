@@ -21,7 +21,7 @@ while True:
     resp, n = getURL(page)
     page = page[n:]
     if resp:
-        print(resp + " Saved")
+        print("Wait..........." + " Saved")
         num = num + 1
         r = req.get(resp)
         with open("image_" + str(num) + ".jpg","wb") as f:
